@@ -1,0 +1,50 @@
+{
+  "name": "ctxlift",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Measure whether AGENTS.md / CLAUDE.md files help a coding agent on your own repo",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SametDemirtas/ctxlift.git"
+  },
+  "homepage": "https://github.com/SametDemirtas/ctxlift#readme",
+  "bugs": {
+    "url": "https://github.com/SametDemirtas/ctxlift/issues"
+  },
+  "engines": {
+    "node": ">=24"
+  },
+  "bin": {
+    "ctxlift": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc -p tsconfig.build.json && chmod +x dist/cli.js",
+    "typecheck": "tsc -p .",
+    "test": "node --test \"test/**/*.test.ts\"",
+    "check": "npm run typecheck && npm test",
+    "prepublishOnly": "npm run check && npm run build",
+    "dev": "node src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "typescript": "5.9"
+  },
+  "keywords": [
+    "agents.md",
+    "claude.md",
+    "claude-code",
+    "coding-agents",
+    "benchmark",
+    "evaluation",
+    "swe-bench",
+    "llm"
+  ],
+  "files": [
+    "dist",
+    "sandbox",
+    "README.md",
+    "LICENSE"
+  ]
+}

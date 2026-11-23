@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 266" width="780" height="266" role="img" aria-labelledby="t d" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="13">
+<title id="t">Success difference and cost ratio of runs with and without context files, per repo</title>
+<desc id="d">fastmcp: success difference +2.7 points (95% interval +0.0 to +8.0), cost ratio 1.36x (1.25x to 1.51x). pipecat: success difference +0.0 points (95% interval -4.0 to +4.0), cost ratio 1.21x (1.12x to 1.33x). pydantic-ai: success difference -3.0 points (95% interval -13.6 to +4.5), cost ratio 1.74x (1.53x to 2.00x). python-sdk: success difference +4.0 points (95% interval +0.0 to +8.0), cost ratio 1.34x (1.20x to 1.53x). all 4 repos: success difference +1.0 points (95% interval -2.1 to +3.8), cost ratio 1.40x (1.31x to 1.51x).</desc>
+<style>.bg{fill:#ffffff}text{fill:#1f2328}.muted{fill:#59636e}.axis{stroke:#d1d9e0}.ref{stroke:#59636e;stroke-dasharray:3 3}.ci{stroke:#0969da;stroke-width:2;fill:none}.dot{fill:#0969da}.ci.cost{stroke:#bc4c00}.dot.cost{fill:#bc4c00}@media (prefers-color-scheme:dark){.bg{fill:#0d1117}text{fill:#e6edf3}.muted{fill:#9198a1}.axis{stroke:#3d444d}.ref{stroke:#9198a1}.ci{stroke:#4493f8}.dot{fill:#4493f8}.ci.cost{stroke:#f0883e}.dot.cost{fill:#f0883e}}</style>
+<rect width="780" height="266" rx="6" class="bg"/>
+<text x="150" y="20" font-weight="600">Success rate, with minus without (pts)</text>
+<text x="475" y="20" font-weight="600">Cost per run, with / without</text>
+<text x="150" y="44" text-anchor="middle" class="muted" font-size="11">−15</text>
+<text x="207" y="44" text-anchor="middle" class="muted" font-size="11">−10</text>
+<text x="264" y="44" text-anchor="middle" class="muted" font-size="11">−5</text>
+<text x="321" y="44" text-anchor="middle" class="muted" font-size="11">0</text>
+<text x="378" y="44" text-anchor="middle" class="muted" font-size="11">+5</text>
+<text x="435" y="44" text-anchor="middle" class="muted" font-size="11">+10</text>
+<text x="475" y="44" text-anchor="middle" class="muted" font-size="11">0.8x</text>
+<text x="515.7142857142857" y="44" text-anchor="middle" class="muted" font-size="11">1.0x</text>
+<text x="556.4285714285714" y="44" text-anchor="middle" class="muted" font-size="11">1.2x</text>
+<text x="597.1428571428571" y="44" text-anchor="middle" class="muted" font-size="11">1.4x</text>
+<text x="637.8571428571429" y="44" text-anchor="middle" class="muted" font-size="11">1.6x</text>
+<text x="678.5714285714286" y="44" text-anchor="middle" class="muted" font-size="11">1.8x</text>
+<text x="719.2857142857142" y="44" text-anchor="middle" class="muted" font-size="11">2.0x</text>
+<text x="760" y="44" text-anchor="middle" class="muted" font-size="11">2.2x</text>
+<line x1="321" y1="48" x2="321" y2="216" class="ref"/>
+<line x1="515.7142857142857" y1="48" x2="515.7142857142857" y2="216" class="ref"/>
+<text x="138" y="68" text-anchor="end">fastmcp</text>
+<line x1="150" y1="64" x2="435" y2="64" class="axis"/>
+<line x1="475" y1="64" x2="760" y2="64" class="axis"/>
+<line x1="321" y1="64" x2="412.2" y2="64" class="ci "/>
+<circle cx="351.4" cy="64" r="5" class="dot "/>
+<line x1="566.5842753966842" y1="64" x2="619.5686472767833" y2="64" class="ci cost"/>
+<circle cx="588.8875340842719" cy="64" r="5" class="dot cost"/>
+<text x="138" y="102" text-anchor="end">pipecat</text>
+<line x1="150" y1="98" x2="435" y2="98" class="axis"/>
+<line x1="475" y1="98" x2="760" y2="98" class="axis"/>
+<line x1="275.4" y1="98" x2="366.6" y2="98" class="ci "/>
+<circle cx="321" cy="98" r="5" class="dot "/>
+<line x1="540.681799387046" y1="98" x2="582.1111451628813" y2="98" class="ci cost"/>
+<circle cx="558.0840607329106" cy="98" r="5" class="dot cost"/>
+<text x="138" y="136" text-anchor="end">pydantic-ai</text>
+<line x1="150" y1="132" x2="435" y2="132" class="axis"/>
+<line x1="475" y1="132" x2="760" y2="132" class="axis"/>
+<line x1="165.54545454545456" y1="132" x2="372.81818181818176" y2="132" class="ci "/>
+<circle cx="286.45454545454544" cy="132" r="5" class="dot "/>
+<line x1="624.4426009085895" y1="132" x2="719.4610037202951" y2="132" class="ci cost"/>
+<circle cx="665.9517656264934" cy="132" r="5" class="dot cost"/>
+<text x="138" y="170" text-anchor="end">python-sdk</text>
+<line x1="150" y1="166" x2="435" y2="166" class="axis"/>
+<line x1="475" y1="166" x2="760" y2="166" class="axis"/>
+<line x1="321" y1="166" x2="412.2" y2="166" class="ci "/>
+<circle cx="366.6" cy="166" r="5" class="dot "/>
+<line x1="557.3455671377646" y1="166" x2="622.7384739991469" y2="166" class="ci cost"/>
+<circle cx="584.4401342299301" cy="166" r="5" class="dot cost"/>
+<text x="138" y="204" text-anchor="end" font-weight="600">all 4 repos</text>
+<line x1="150" y1="200" x2="435" y2="200" class="axis"/>
+<line x1="475" y1="200" x2="760" y2="200" class="axis"/>
+<line x1="297.4948453608247" y1="200" x2="364.09278350515467" y2="200" class="ci "/>
+<circle cx="332.7525773195876" cy="200" r="5" class="dot "/>
+<line x1="579.6202365598411" y1="200" x2="619.4323858774787" y2="200" class="ci cost"/>
+<circle cx="597.5946881154671" cy="200" r="5" class="dot cost"/>
+<text x="150" y="254" class="muted" font-size="11">Dots are estimates, lines are 95% bootstrap intervals over tasks. Arrows mark values beyond the axis. Model claude-sonnet-5-5.</text>
+</svg>
